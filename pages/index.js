@@ -2,7 +2,7 @@ import React from "react"
 import { useForm, Controller } from "react-hook-form"
 import Container from "@material-ui/core/Container"
 import Input from "@material-ui/core/Input"
-import firebase from "../config/firebase"
+import firebase from "../src/config/firebase"
 
 export default function Home() {
   const { register, handleSubmit, formState: { errors }, control, watch } = useForm()
